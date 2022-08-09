@@ -12,8 +12,8 @@ extension=gd, extension=exif
 ***In terminal we go to The directory we installed the composer(some-dir)***
 ###Create a project:
 >``composer create-project drupal-composer/drupal-project:9.x-dev some-dir --no-interaction``
-``cd some-dir``
-``composer require drupal/devel``
+>``cd some-dir``
+>``composer require drupal/devel``
 
 #We need to clone from github now:
 ``git clone --branch 8.2.x https://git.drupal.org/project/drupal.git``

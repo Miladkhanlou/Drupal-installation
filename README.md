@@ -11,7 +11,7 @@ extension=gd, extension=exif
 
 ***In terminal we go to The directory we installed the composer(some-dir)***
 ###Create a project:
-``composer create-project drupal-composer/drupal-project:9.x-dev some-dir --no-interaction``
+>``composer create-project drupal-composer/drupal-project:9.x-dev some-dir --no-interaction``
 ``cd some-dir``
 ``composer require drupal/devel``
 

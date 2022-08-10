@@ -26,7 +26,7 @@ https://www.drupal.org/id/docs/user_guide/id/install-composer.html<br />
 After installing drupal files in our directory(instructions above), we need to clone the docker for drupal. <br/>
 ``git clone https://github.com/wodby/docker4drupal.git Folder_name`` <br/>
 
-now we open the folder containing all the folders and files needed for drupal and docker in text editor and edit the **docker-comose.yml** file.<br/>
+now we open the folder containing all the folders and files needed for drupal and docker in text editor and edit the **docker-comose.yml** file.
 1. In environment section, we change the Username, password and database name. <br/>
 2. Rename the volumes for php,nginx to ``    - ./:/var/www/html`` <br/>
 3. Change the port to 80

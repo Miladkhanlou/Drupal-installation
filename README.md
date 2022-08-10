@@ -28,11 +28,10 @@ After installing drupal files in our directory(instructions above), we need to c
 
 now we open the folder containing all the folders and files needed for drupal and docker in text editor and edit the **docker-comose.yml** file.
 1. In environment section, we change the Username, password and database name. <br/>
-2. Rename the volumes for php,nginx to ``    - ./:/var/www/html`` <br/>
-3. Change the port to 80
+2. Rename the volumes for php,nginx to ``- ./:/var/www/html`` <br/>
+3. Change the port to 80 <br/>
 
 we may want to comment out mailhog as we do not need it.<br/>
-
 Next, we run docker compose: <br/>
 ``docker-compose up -d``<br/>
 

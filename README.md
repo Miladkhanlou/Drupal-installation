@@ -1,8 +1,8 @@
 # Drupal installation for windows
 
-For installing composer we need php installed on the C drive. (We can install php from XAMPP as well)<br />
+To install composer we need php installed on the C drive. (We can install php from XAMPP as well)<br />
 
-InstallComposer. We can install it Through Docker, Command prompt or from composer-setup.exe (https://getcomposer.org/Composer-Setup.exe)<br />
+Install Composer. We can install it Through Docker, Command prompt or from composer-setup.exe (https://getcomposer.org/Composer-Setup.exe)<br />
 After installing Composer, we should have a composer.json in our machine where we insalled the Composer<br />
 run composer to make sure composer is already installed.<br />
 
